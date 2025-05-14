@@ -269,6 +269,50 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 	}
 }
 
+// Count views
+function set_post_views($postID) {
+    $key = 'post_views_count';
+    $count = get_post_meta($postID, $key, true);
+    $count = $count ? $count + 1 : 1;
+    update_post_meta($postID, $key, $count);
+}
+
+// Display views
+function get_post_views($postID) {
+    $key = 'post_views_count';
+    $count = get_post_meta($postID, $key, true);
+    return $count ? $count : '0';
+}
+
+// Shortcode to display views
+function post_views_shortcode() {
+    if (is_single()) {
+        global $post;
+        return get_post_views($post->ID);
+    }
+    return '';
+}
+add_shortcode('post_views', 'post_views_shortcode');
+
+// Hook to count views on single post view
+function count_views_when_post_loaded() {
+    if (is_single()) {
+        global $post;
+        set_post_views($post->ID);
+    }
+}
+add_action('wp_head', 'count_views_when_post_loaded');
+
+// Shortcode for post update date
+function shortcode_post_modified_date() {
+    if (is_singular()) {
+        return get_the_modified_date('Y-m-d');
+    }
+    return '';
+}
+add_shortcode('post_modified_date', 'shortcode_post_modified_date');
+
+
 require HELLO_THEME_PATH . '/theme.php';
 
 HelloTheme\Theme::instance();
