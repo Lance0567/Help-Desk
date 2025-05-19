@@ -269,39 +269,51 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 	}
 }
 
-// Count views
-function set_post_views($postID) {
-    $key = 'post_views_count';
-    $count = get_post_meta($postID, $key, true);
-    $count = $count ? $count + 1 : 1;
-    update_post_meta($postID, $key, $count);
-}
-
-// Display views
-function get_post_views($postID) {
-    $key = 'post_views_count';
-    $count = get_post_meta($postID, $key, true);
-    return $count ? $count : '0';
-}
-
-// Shortcode to display views
-function post_views_shortcode() {
-    if (is_single()) {
-        global $post;
-        return get_post_views($post->ID);
-    }
-    return '';
-}
-add_shortcode('post_views', 'post_views_shortcode');
-
-// Hook to count views on single post view
-function count_views_when_post_loaded() {
-    if (is_single()) {
-        global $post;
-        set_post_views($post->ID);
+// Count post views
+function wpb_set_post_views($postID) {
+    $count_key = 'wpb_post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    
+    if($count == '') {
+        $count = 0;
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+    } else {
+        $count++;
+        update_post_meta($postID, $count_key, $count);
     }
 }
-add_action('wp_head', 'count_views_when_post_loaded');
+
+// Get post views
+function wpb_get_post_views($postID){
+    $count_key = 'wpb_post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    
+    if($count == ''){
+        return "0 Views";
+    }
+    return $count . ' Views';
+}
+
+// Hook into single post view
+function wpb_track_post_views($post_id) {
+    if (!is_single()) return;
+    if (empty($post_id)) {
+        global $post;
+        $post_id = $post->ID;
+    }
+    wpb_set_post_views($post_id);
+}
+add_action('wp_head', 'wpb_track_post_views');
+
+// Create shortcode
+function wpb_post_views_shortcode($atts) {
+    global $post;
+    if (!isset($post->ID)) return '';
+    return wpb_get_post_views($post->ID);
+}
+add_shortcode('post_views', 'wpb_post_views_shortcode');
+
 
 // Shortcode for post update date
 function shortcode_post_modified_date() {
@@ -311,6 +323,34 @@ function shortcode_post_modified_date() {
     return '';
 }
 add_shortcode('post_modified_date', 'shortcode_post_modified_date');
+
+function custom_showing_post_count_shortcode() {
+    ob_start();
+    ?>
+    <div id="post-counter">Showing all articles</div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const postCounter = document.getElementById('post-counter');
+            const loopGrid = document.querySelector('.elementor-posts'); // adjust if needed
+
+            if (loopGrid && postCounter) {
+                const observer = new MutationObserver(() => {
+                    const posts = loopGrid.querySelectorAll('.elementor-post');
+                    const totalPosts = loopGrid.getAttribute('data-total-posts') || 8; // set actual total if known
+                    const visiblePosts = posts.length;
+
+                    postCounter.textContent = `Showing ${visiblePosts} of ${totalPosts} articles`;
+                });
+
+                observer.observe(loopGrid, { childList: true, subtree: true });
+            }
+        });
+    </script>
+    <?php
+    return ob_get_clean();
+}
+add_shortcode('post_count_status', 'custom_showing_post_count_shortcode');
+
 
 
 require HELLO_THEME_PATH . '/theme.php';
