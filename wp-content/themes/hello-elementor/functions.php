@@ -324,33 +324,123 @@ function shortcode_post_modified_date() {
 }
 add_shortcode('post_modified_date', 'shortcode_post_modified_date');
 
-function custom_showing_post_count_shortcode() {
+// Count post under the category
+function showing_filtered_post_count_shortcode() {
+    // Get total number of published posts (change 'post' to your CPT if needed)
+    $total_posts = wp_count_posts('post')->publish;
+
     ob_start();
     ?>
-    <div id="post-counter">Showing all articles</div>
+    <div id="post-count-info">Showing all <?php echo $total_posts; ?> articles</div>
+
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const postCounter = document.getElementById('post-counter');
-            const loopGrid = document.querySelector('.elementor-posts'); // adjust if needed
+    document.addEventListener('DOMContentLoaded', function () {
+        const postCountDiv = document.getElementById('post-count-info');
 
-            if (loopGrid && postCounter) {
-                const observer = new MutationObserver(() => {
-                    const posts = loopGrid.querySelectorAll('.elementor-post');
-                    const totalPosts = loopGrid.getAttribute('data-total-posts') || 8; // set actual total if known
-                    const visiblePosts = posts.length;
+        // Observe when posts change inside the Loop Grid
+        const loopGrid = document.querySelector('.e-loop-container'); // Make sure this class matches yours
+        if (!loopGrid || !postCountDiv) return;
 
-                    postCounter.textContent = `Showing ${visiblePosts} of ${totalPosts} articles`;
-                });
+        const updatePostCount = () => {
+            const visiblePosts = loopGrid.querySelectorAll('.e-loop-item').length;
+            const totalPosts = <?php echo $total_posts; ?>;
+            postCountDiv.textContent = `Showing ${visiblePosts} of ${totalPosts} articles`;
+        };
 
-                observer.observe(loopGrid, { childList: true, subtree: true });
-            }
-        });
+        // Watch for changes in the loop (posts being filtered)
+        const observer = new MutationObserver(updatePostCount);
+        observer.observe(loopGrid, { childList: true, subtree: true });
+
+        // Run once on load
+        updatePostCount();
+    });
     </script>
     <?php
     return ob_get_clean();
 }
-add_shortcode('post_count_status', 'custom_showing_post_count_shortcode');
+add_shortcode('post_count_tracker', 'showing_filtered_post_count_shortcode');
 
+// Test
+function custom_category_post_count($atts) {
+    $atts = shortcode_atts(array(
+        'category' => '',
+    ), $atts, 'category_post_count');
+
+    if (empty($atts['category'])) {
+        return '';
+    }
+
+    $term = get_term_by('slug', $atts['category'], 'category');
+    if (!$term) {
+        return '';
+    }
+
+    return $term->count;
+}
+add_shortcode('category_post_count', 'custom_category_post_count');
+
+add_action('wp_ajax_get_category_post_count', 'get_category_post_count');
+add_action('wp_ajax_nopriv_get_category_post_count', 'get_category_post_count');
+
+function get_category_post_count() {
+    if (isset($_POST['category'])) {
+        $category_slug = sanitize_text_field($_POST['category']);
+        $term = get_term_by('slug', $category_slug, 'category');
+
+        if ($term && !is_wp_error($term)) {
+            echo $term->count;
+        } else {
+            echo '0';
+        }
+    } else {
+        echo '0';
+    }
+    wp_die();
+}
+
+add_action('wp_head', function() {
+    ?>
+    <script>
+        var ajaxurl = "<?php echo admin_url('admin-ajax.php'); ?>";
+    </script>
+    <?php
+});
+
+
+// test 2
+function display_taxonomy_post_count() {
+    // Get the current taxonomy term slug from the query string (assuming the URL includes the taxonomy filter)
+    if (isset($_GET['post_cat'])) {
+        $category_slug = sanitize_text_field($_GET['post_cat']);
+    } else {
+        return ''; // Return empty if no category is selected
+    }
+
+    // Set the parameters for the query
+    $args = array(
+        'post_type' => 'post', // Replace 'post' with your custom post type if needed
+        'posts_per_page' => -1, // Get all posts
+        'tax_query' => array(
+            array(
+                'taxonomy' => 'category', // Replace 'category' with your custom taxonomy if needed
+                'field'    => 'slug',
+                'terms'    => $category_slug,
+                'operator' => 'IN',
+            ),
+        ),
+    );
+
+    // Get the posts based on the selected category
+    $query = new WP_Query($args);
+    $filtered_posts_count = $query->found_posts;
+
+    // Get the total number of posts across all categories
+    $total_posts_count = wp_count_posts()->publish;
+
+    // Return the desired output
+    return 'Showing ' . $filtered_posts_count . ' of ' . $total_posts_count . ' articles';
+}
+add_shortcode('taxonomy_post_count', 'display_taxonomy_post_count');
 
 
 require HELLO_THEME_PATH . '/theme.php';
