@@ -1,0 +1,642 @@
+.elementor-132 .elementor-element.elementor-element-1e33093{--display:flex;--min-height:45px;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-132 .elementor-element.elementor-element-ce8723c{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--align-items:center;--gap:10px 0px;--row-gap:10px;--column-gap:0px;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-132 .elementor-element.elementor-element-e925822 .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-132 .elementor-element.elementor-element-1b50a07{font-family:"Inter", Sans-serif;font-weight:400;color:#4B5563;}.elementor-132 .elementor-element.elementor-element-69c0cb3{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;}.elementor-132 .elementor-element.elementor-element-a884685{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-132 .elementor-element.elementor-element-ee2f045{--display:flex;--gap:5px 0px;--row-gap:5px;--column-gap:0px;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#E2E8F0;--border-color:#E2E8F0;--border-radius:13px 13px 13px 13px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-132 .elementor-element.elementor-element-ee2f045:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-ee2f045 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-widget-icon-box.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-primary );}.elementor-widget-icon-box.elementor-view-framed .elementor-icon, .elementor-widget-icon-box.elementor-view-default .elementor-icon{fill:var( --e-global-color-primary );color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-widget-icon-box .elementor-icon-box-title, .elementor-widget-icon-box .elementor-icon-box-title a{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-icon-box .elementor-icon-box-title{color:var( --e-global-color-primary );}.elementor-widget-icon-box:has(:hover) .elementor-icon-box-title,
+					 .elementor-widget-icon-box:has(:focus) .elementor-icon-box-title{color:var( --e-global-color-primary );}.elementor-widget-icon-box .elementor-icon-box-description{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-132 .elementor-element.elementor-element-f01c3f6 .elementor-icon-box-wrapper{text-align:left;}.elementor-132 .elementor-element.elementor-element-f01c3f6{--icon-box-icon-margin:5px;}.elementor-132 .elementor-element.elementor-element-f01c3f6 .elementor-icon-box-title{margin-bottom:10px;}.elementor-132 .elementor-element.elementor-element-f01c3f6.elementor-view-stacked .elementor-icon{background-color:#F38D2D;}.elementor-132 .elementor-element.elementor-element-f01c3f6.elementor-view-framed .elementor-icon, .elementor-132 .elementor-element.elementor-element-f01c3f6.elementor-view-default .elementor-icon{fill:#F38D2D;color:#F38D2D;border-color:#F38D2D;}.elementor-132 .elementor-element.elementor-element-f01c3f6 .elementor-icon{font-size:23px;}.elementor-132 .elementor-element.elementor-element-f01c3f6 .elementor-icon-box-title, .elementor-132 .elementor-element.elementor-element-f01c3f6 .elementor-icon-box-title a{font-family:"Inter", Sans-serif;font-size:1.4rem;font-weight:600;line-height:10px;}.elementor-132 .elementor-element.elementor-element-f01c3f6 .elementor-icon-box-description{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;}.elementor-132 .elementor-element.elementor-element-f967c1c{font-family:"Inter", Sans-serif;font-size:15px;font-weight:400;color:#64748B;}.elementor-widget-nested-tabs.elementor-widget-n-tabs > .elementor-widget-container > .e-n-tabs[data-touch-mode='false'] > .e-n-tabs-heading > .e-n-tab-title[aria-selected="false"]:hover{background:var( --e-global-color-accent );}.elementor-widget-nested-tabs.elementor-widget-n-tabs > .elementor-widget-container > .e-n-tabs > .e-n-tabs-heading > .e-n-tab-title[aria-selected="true"], .elementor-widget-nested-tabs.elementor-widget-n-tabs > .elementor-widget-container > .e-n-tabs[data-touch-mode='true'] > .e-n-tabs-heading > .e-n-tab-title[aria-selected="false"]:hover{background:var( --e-global-color-accent );}.elementor-widget-nested-tabs.elementor-widget-n-tabs > .elementor-widget-container > .e-n-tabs > .e-n-tabs-heading > :is( .e-n-tab-title > .e-n-tab-title-text, .e-n-tab-title ){font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-132 .elementor-element.elementor-element-c6bb25b{--display:flex;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-132 .elementor-element.elementor-element-2f22ec1{--display:flex;}.elementor-132 .elementor-element.elementor-element-f0d4483{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;color:#64748B;}.elementor-widget-form .elementor-field-group > label, .elementor-widget-form .elementor-field-subgroup label{color:var( --e-global-color-text );}.elementor-widget-form .elementor-field-group > label{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-form .elementor-field-type-html{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-form .elementor-field-group .elementor-field{color:var( --e-global-color-text );}.elementor-widget-form .elementor-field-group .elementor-field, .elementor-widget-form .elementor-field-subgroup label{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-form .elementor-button{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-form .e-form__buttons__wrapper__button-next{background-color:var( --e-global-color-accent );}.elementor-widget-form .elementor-button[type="submit"]{background-color:var( --e-global-color-accent );}.elementor-widget-form .e-form__buttons__wrapper__button-previous{background-color:var( --e-global-color-accent );}.elementor-widget-form .elementor-message{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-form .e-form__indicators__indicator, .elementor-widget-form .e-form__indicators__indicator__label{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-widget-form{--e-form-steps-indicator-inactive-primary-color:var( --e-global-color-text );--e-form-steps-indicator-active-primary-color:var( --e-global-color-accent );--e-form-steps-indicator-completed-primary-color:var( --e-global-color-accent );--e-form-steps-indicator-progress-color:var( --e-global-color-accent );--e-form-steps-indicator-progress-background-color:var( --e-global-color-text );--e-form-steps-indicator-progress-meter-color:var( --e-global-color-text );}.elementor-widget-form .e-form__indicators__indicator__progress__meter{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group{padding-right:calc( 11px/2 );padding-left:calc( 11px/2 );margin-bottom:25px;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-form-fields-wrapper{margin-left:calc( -11px/2 );margin-right:calc( -11px/2 );margin-bottom:-25px;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group.recaptcha_v3-bottomleft, .elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group.recaptcha_v3-bottomright{margin-bottom:0;}body.rtl .elementor-132 .elementor-element.elementor-element-55135b1 .elementor-labels-inline .elementor-field-group > label{padding-left:10px;}body:not(.rtl) .elementor-132 .elementor-element.elementor-element-55135b1 .elementor-labels-inline .elementor-field-group > label{padding-right:10px;}body .elementor-132 .elementor-element.elementor-element-55135b1 .elementor-labels-above .elementor-field-group > label{padding-bottom:10px;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group > label, .elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-subgroup label{color:#020817;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group > label{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:500;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-type-html{padding-bottom:0px;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group .elementor-field{color:#2F2C50;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group .elementor-field, .elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-subgroup label{font-family:"Inter", Sans-serif;font-weight:400;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group .elementor-field:not(.elementor-select-wrapper){background-color:#F8FAFC;border-color:#E2E8F0;border-radius:11px 11px 11px 11px;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group .elementor-select-wrapper select{background-color:#F8FAFC;border-color:#E2E8F0;border-radius:11px 11px 11px 11px;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-field-group .elementor-select-wrapper::before{color:#E2E8F0;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-button{font-family:"Inter", Sans-serif;font-size:14px;font-weight:500;border-radius:10px 10px 10px 10px;}.elementor-132 .elementor-element.elementor-element-55135b1 .e-form__buttons__wrapper__button-next{background-color:#E48E2D;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-button[type="submit"]{background-color:#E48E2D;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-button[type="submit"] svg *{fill:#ffffff;}.elementor-132 .elementor-element.elementor-element-55135b1 .e-form__buttons__wrapper__button-previous{background-color:#E48E2D;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-55135b1 .e-form__buttons__wrapper__button-next:hover{background-color:#DB7219;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-button[type="submit"]:hover{background-color:#DB7219;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-55135b1 .elementor-button[type="submit"]:hover svg *{fill:#ffffff;}.elementor-132 .elementor-element.elementor-element-55135b1 .e-form__buttons__wrapper__button-previous:hover{background-color:#DB7219;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-55135b1{--e-form-steps-indicators-spacing:20px;--e-form-steps-indicator-padding:30px;--e-form-steps-indicator-inactive-secondary-color:#ffffff;--e-form-steps-indicator-active-secondary-color:#ffffff;--e-form-steps-indicator-completed-secondary-color:#ffffff;--e-form-steps-divider-width:1px;--e-form-steps-divider-gap:10px;}.elementor-132 .elementor-element.elementor-element-1cdc3b7{--display:flex;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-132 .elementor-element.elementor-element-7b0a886{--display:flex;}.elementor-132 .elementor-element.elementor-element-f7d69f2{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;color:#64748B;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group{padding-right:calc( 11px/2 );padding-left:calc( 11px/2 );margin-bottom:25px;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-form-fields-wrapper{margin-left:calc( -11px/2 );margin-right:calc( -11px/2 );margin-bottom:-25px;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group.recaptcha_v3-bottomleft, .elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group.recaptcha_v3-bottomright{margin-bottom:0;}body.rtl .elementor-132 .elementor-element.elementor-element-af48144 .elementor-labels-inline .elementor-field-group > label{padding-left:10px;}body:not(.rtl) .elementor-132 .elementor-element.elementor-element-af48144 .elementor-labels-inline .elementor-field-group > label{padding-right:10px;}body .elementor-132 .elementor-element.elementor-element-af48144 .elementor-labels-above .elementor-field-group > label{padding-bottom:10px;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group > label, .elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-subgroup label{color:#020817;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group > label{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:500;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-type-html{padding-bottom:0px;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group .elementor-field{color:#2F2C50;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group .elementor-field, .elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-subgroup label{font-family:"Inter", Sans-serif;font-weight:400;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group .elementor-field:not(.elementor-select-wrapper){background-color:#F8FAFC;border-color:#E2E8F0;border-radius:11px 11px 11px 11px;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group .elementor-select-wrapper select{background-color:#F8FAFC;border-color:#E2E8F0;border-radius:11px 11px 11px 11px;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-field-group .elementor-select-wrapper::before{color:#E2E8F0;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-button{font-family:"Inter", Sans-serif;font-size:14px;font-weight:500;border-radius:10px 10px 10px 10px;}.elementor-132 .elementor-element.elementor-element-af48144 .e-form__buttons__wrapper__button-next{background-color:#E48E2D;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-button[type="submit"]{background-color:#E48E2D;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-button[type="submit"] svg *{fill:#ffffff;}.elementor-132 .elementor-element.elementor-element-af48144 .e-form__buttons__wrapper__button-previous{background-color:#E48E2D;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-af48144 .e-form__buttons__wrapper__button-next:hover{background-color:#DB7219;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-button[type="submit"]:hover{background-color:#DB7219;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-af48144 .elementor-button[type="submit"]:hover svg *{fill:#ffffff;}.elementor-132 .elementor-element.elementor-element-af48144 .e-form__buttons__wrapper__button-previous:hover{background-color:#DB7219;color:#ffffff;}.elementor-132 .elementor-element.elementor-element-af48144{--e-form-steps-indicators-spacing:20px;--e-form-steps-indicator-padding:30px;--e-form-steps-indicator-inactive-secondary-color:#ffffff;--e-form-steps-indicator-active-secondary-color:#ffffff;--e-form-steps-indicator-completed-secondary-color:#ffffff;--e-form-steps-divider-width:1px;--e-form-steps-divider-gap:10px;}.elementor-132 .elementor-element.elementor-element-e3190fd{--n-tabs-direction:column;--n-tabs-heading-direction:row;--n-tabs-heading-width:initial;--n-tabs-title-flex-basis:content;--n-tabs-title-flex-shrink:0;--n-tabs-heading-justify-content:initial;--n-tabs-title-width:100%;--n-tabs-title-height:initial;--n-tabs-title-align-items:center;--n-tabs-title-flex-grow:1;--n-tabs-heading-wrap:wrap;--n-tabs-heading-overflow-x:initial;--n-tabs-title-white-space:initial;--n-tabs-title-gap:2px;--n-tabs-gap:18px;--n-tabs-title-border-radius:9px 9px 9px 9px;--n-tabs-title-padding-top:5px;--n-tabs-title-padding-right:5px;--n-tabs-title-padding-bottom:5px;--n-tabs-title-padding-left:5px;--n-tabs-title-font-size:0.875rem;--n-tabs-title-color:#65758B;--n-tabs-title-color-active:#020817;}.elementor-132 .elementor-element.elementor-element-e3190fd > .elementor-widget-container > .e-n-tabs > .e-n-tabs-heading > .e-n-tab-title[aria-selected='false']:not( :hover ){background:#E9292900;}.elementor-132 .elementor-element.elementor-element-e3190fd.elementor-widget-n-tabs > .elementor-widget-container > .e-n-tabs[data-touch-mode='false'] > .e-n-tabs-heading > .e-n-tab-title[aria-selected="false"]:hover{background:#F1F5F9;}.elementor-132 .elementor-element.elementor-element-e3190fd.elementor-widget-n-tabs > .elementor-widget-container > .e-n-tabs > .e-n-tabs-heading > .e-n-tab-title[aria-selected="true"], .elementor-132 .elementor-element.elementor-element-e3190fd.elementor-widget-n-tabs > .elementor-widget-container > .e-n-tabs[data-touch-mode='true'] > .e-n-tabs-heading > .e-n-tab-title[aria-selected="false"]:hover{background:#FFFFFF;border-style:none;}.elementor-132 .elementor-element.elementor-element-e3190fd > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-132 .elementor-element.elementor-element-e3190fd.elementor-widget-n-tabs > .elementor-widget-container > .e-n-tabs > .e-n-tabs-heading > :is( .e-n-tab-title > .e-n-tab-title-text, .e-n-tab-title ){font-family:"Inter", Sans-serif;font-weight:500;}.elementor-132 .elementor-element.elementor-element-e3190fd [data-touch-mode="false"] .e-n-tab-title[aria-selected="false"]:hover{--n-tabs-title-color-hover:#64748B;}.elementor-132 .elementor-element.elementor-element-a1be7ff{--display:flex;--gap:5px 0px;--row-gap:5px;--column-gap:0px;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#E2E8F0;--border-color:#E2E8F0;--border-radius:13px 13px 13px 13px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-132 .elementor-element.elementor-element-a1be7ff:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-a1be7ff > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-132 .elementor-element.elementor-element-949b873 .elementor-icon-box-wrapper{text-align:left;}.elementor-132 .elementor-element.elementor-element-949b873{--icon-box-icon-margin:5px;}.elementor-132 .elementor-element.elementor-element-949b873 .elementor-icon-box-title{margin-bottom:10px;}.elementor-132 .elementor-element.elementor-element-949b873.elementor-view-stacked .elementor-icon{background-color:#F38D2D;}.elementor-132 .elementor-element.elementor-element-949b873.elementor-view-framed .elementor-icon, .elementor-132 .elementor-element.elementor-element-949b873.elementor-view-default .elementor-icon{fill:#F38D2D;color:#F38D2D;border-color:#F38D2D;}.elementor-132 .elementor-element.elementor-element-949b873 .elementor-icon{font-size:23px;}.elementor-132 .elementor-element.elementor-element-949b873 .elementor-icon-box-title, .elementor-132 .elementor-element.elementor-element-949b873 .elementor-icon-box-title a{font-family:"Inter", Sans-serif;font-size:1.4rem;font-weight:600;line-height:10px;}.elementor-132 .elementor-element.elementor-element-949b873 .elementor-icon-box-description{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;}.elementor-132 .elementor-element.elementor-element-c6f8bde{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 15px;--row-gap:0px;--column-gap:15px;}.elementor-132 .elementor-element.elementor-element-2d6804f{--display:flex;--gap:15px 0px;--row-gap:15px;--column-gap:0px;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#E2E8F0;--border-color:#E2E8F0;--border-radius:13px 13px 13px 13px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-132 .elementor-element.elementor-element-2d6804f:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-2d6804f > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F9FAFB;}.elementor-132 .elementor-element.elementor-element-c6fdb25 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:1.125rem;font-weight:500;}.elementor-132 .elementor-element.elementor-element-45360b5 > .elementor-widget-container{margin:0px 0px 0px -23px;}.elementor-132 .elementor-element.elementor-element-45360b5{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;line-height:25px;color:#000000;}.elementor-132 .elementor-element.elementor-element-6b54f3d{--display:flex;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#E2E8F0;--border-color:#E2E8F0;--border-radius:13px 13px 13px 13px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-132 .elementor-element.elementor-element-6b54f3d:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-6b54f3d > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F9FAFB;}.elementor-132 .elementor-element.elementor-element-ab921b0 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:1.125rem;font-weight:500;}.elementor-132 .elementor-element.elementor-element-913510a > .elementor-widget-container{margin:0px 0px 0px -23px;}.elementor-132 .elementor-element.elementor-element-913510a{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;line-height:25px;color:#000000;}.elementor-132 .elementor-element.elementor-element-e9362fa{--display:flex;}.elementor-132 .elementor-element.elementor-element-58e2284{--display:flex;--gap:15px 0px;--row-gap:15px;--column-gap:0px;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#E2E8F0;--border-color:#E2E8F0;--border-radius:13px 13px 13px 13px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-132 .elementor-element.elementor-element-58e2284:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-58e2284 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-132 .elementor-element.elementor-element-e5434ea .elementor-icon-box-wrapper{text-align:left;}.elementor-132 .elementor-element.elementor-element-e5434ea{--icon-box-icon-margin:10px;}.elementor-132 .elementor-element.elementor-element-e5434ea .elementor-icon-box-title{margin-bottom:10px;}.elementor-132 .elementor-element.elementor-element-e5434ea.elementor-view-stacked .elementor-icon{background-color:#F38D2D;}.elementor-132 .elementor-element.elementor-element-e5434ea.elementor-view-framed .elementor-icon, .elementor-132 .elementor-element.elementor-element-e5434ea.elementor-view-default .elementor-icon{fill:#F38D2D;color:#F38D2D;border-color:#F38D2D;}.elementor-132 .elementor-element.elementor-element-e5434ea .elementor-icon{font-size:20px;}.elementor-132 .elementor-element.elementor-element-e5434ea .elementor-icon-box-title, .elementor-132 .elementor-element.elementor-element-e5434ea .elementor-icon-box-title a{font-family:"Inter", Sans-serif;font-size:1.4rem;font-weight:600;line-height:5px;}.elementor-132 .elementor-element.elementor-element-e5434ea .elementor-icon-box-description{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;}.elementor-132 .elementor-element.elementor-element-153e6b5{--display:flex;--gap:10px 0px;--row-gap:10px;--column-gap:0px;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#E2E8F0;--border-color:#E2E8F0;--border-radius:13px 13px 13px 13px;--padding-top:15px;--padding-bottom:15px;--padding-left:15px;--padding-right:15px;}.elementor-132 .elementor-element.elementor-element-153e6b5:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-153e6b5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#EFF6FF;}.elementor-132 .elementor-element.elementor-element-ab4a22b .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:1rem;font-weight:500;}.elementor-132 .elementor-element.elementor-element-0d23c36{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button{background-color:#FFFFFF;font-family:"Inter", Sans-serif;font-weight:500;fill:#000000;color:#000000;border-style:solid;border-width:1px 1px 1px 1px;border-color:#E2E8F0;border-radius:9px 9px 9px 9px;}.elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button:hover, .elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button:focus{background-color:#E48E2D;color:#FFFFFF;}.elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button .elementor-button-content-wrapper{gap:13px;}.elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button:hover svg, .elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button:focus svg{fill:#FFFFFF;}.elementor-132 .elementor-element.elementor-element-d8785d5{--display:flex;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#E2E8F0;--border-color:#E2E8F0;--border-radius:13px 13px 13px 13px;--padding-top:15px;--padding-bottom:5px;--padding-left:15px;--padding-right:15px;}.elementor-132 .elementor-element.elementor-element-d8785d5:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-d8785d5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#EFF6FF;}.elementor-132 .elementor-element.elementor-element-73a1cfa .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:1rem;font-weight:500;}.elementor-132 .elementor-element.elementor-element-57531bf{font-family:"Inter", Sans-serif;font-size:0.875rem;font-weight:400;}.elementor-132 .elementor-element.elementor-element-1fbdae7{--display:flex;--gap:0px 0px;--row-gap:0px;--column-gap:0px;border-style:solid;--border-style:solid;border-width:1px 1px 1px 1px;--border-top-width:1px;--border-right-width:1px;--border-bottom-width:1px;--border-left-width:1px;border-color:#E2E8F0;--border-color:#E2E8F0;--border-radius:13px 13px 13px 13px;--padding-top:25px;--padding-bottom:25px;--padding-left:25px;--padding-right:25px;}.elementor-132 .elementor-element.elementor-element-1fbdae7:not(.elementor-motion-effects-element-type-background), .elementor-132 .elementor-element.elementor-element-1fbdae7 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-132 .elementor-element.elementor-element-ee292f4 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:1.4rem;font-weight:600;}.elementor-132 .elementor-element.elementor-element-c424f86 > .elementor-widget-container{margin:20px 0px 0px 0px;}.elementor-132 .elementor-element.elementor-element-c424f86{column-gap:0px;font-family:"Inter", Sans-serif;font-size:14px;font-weight:500;line-height:18px;color:#4B5563;}.elementor-widget-divider{--divider-color:var( --e-global-color-secondary );}.elementor-widget-divider .elementor-divider__text{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-divider.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-secondary );}.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon{color:var( --e-global-color-secondary );border-color:var( --e-global-color-secondary );}.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon svg{fill:var( --e-global-color-secondary );}.elementor-132 .elementor-element.elementor-element-0d43264{--divider-border-style:solid;--divider-color:#E6E6E6;--divider-border-width:0.1px;}.elementor-132 .elementor-element.elementor-element-0d43264 > .elementor-widget-container{margin:-15px 0px 0px 0px;}.elementor-132 .elementor-element.elementor-element-0d43264 .elementor-divider-separator{width:100%;}.elementor-132 .elementor-element.elementor-element-0d43264 .elementor-divider{padding-block-start:15px;padding-block-end:15px;}.elementor-132 .elementor-element.elementor-element-b6319ef{font-family:"Inter", Sans-serif;font-size:14px;font-weight:500;line-height:18px;color:#4B5563;}.elementor-132 .elementor-element.elementor-element-45325ff{--divider-border-style:solid;--divider-color:#E6E6E6;--divider-border-width:0.1px;}.elementor-132 .elementor-element.elementor-element-45325ff > .elementor-widget-container{margin:-15px 0px 0px 0px;}.elementor-132 .elementor-element.elementor-element-45325ff .elementor-divider-separator{width:100%;}.elementor-132 .elementor-element.elementor-element-45325ff .elementor-divider{padding-block-start:15px;padding-block-end:15px;}.elementor-132 .elementor-element.elementor-element-4be0097{font-family:"Inter", Sans-serif;font-size:14px;font-weight:500;line-height:18px;color:#4B5563;}.elementor-132 .elementor-element.elementor-element-2dc2e64 .elementor-button{background-color:#FFFFFF00;font-family:"Inter", Sans-serif;font-size:15px;font-weight:500;fill:#2563EB;color:#2563EB;border-radius:9px 9px 9px 9px;}.elementor-132 .elementor-element.elementor-element-2dc2e64 .elementor-button:hover, .elementor-132 .elementor-element.elementor-element-2dc2e64 .elementor-button:focus{background-color:#E48E2D00;color:#2563EB;}.elementor-132 .elementor-element.elementor-element-2dc2e64 > .elementor-widget-container{margin:10px 0px 0px 0px;}.elementor-132 .elementor-element.elementor-element-2dc2e64 .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-132 .elementor-element.elementor-element-2dc2e64 .elementor-button .elementor-button-content-wrapper{gap:13px;}.elementor-132 .elementor-element.elementor-element-2dc2e64 .elementor-button:hover svg, .elementor-132 .elementor-element.elementor-element-2dc2e64 .elementor-button:focus svg{fill:#2563EB;}:root{--page-title-display:none;}@media(max-width:1024px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-132 .elementor-element.elementor-element-e925822 .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-132 .elementor-element.elementor-element-1b50a07{text-align:center;}.elementor-132 .elementor-element.elementor-element-69c0cb3{--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-widget-icon-box .elementor-icon-box-title, .elementor-widget-icon-box .elementor-icon-box-title a{font-size:var( --e-global-typography-primary-font-size );}.elementor-widget-divider .elementor-divider__text{font-size:var( --e-global-typography-secondary-font-size );}}@media(max-width:767px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-132 .elementor-element.elementor-element-e925822 .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-132 .elementor-element.elementor-element-1b50a07{text-align:center;font-size:15px;}.elementor-widget-icon-box .elementor-icon-box-title, .elementor-widget-icon-box .elementor-icon-box-title a{font-size:var( --e-global-typography-primary-font-size );}.elementor-132 .elementor-element.elementor-element-e3190fd{--n-tabs-direction:column;--n-tabs-heading-direction:row;--n-tabs-heading-width:initial;--n-tabs-title-flex-basis:content;--n-tabs-title-flex-shrink:0;--n-tabs-title-justify-content:center;--n-tabs-title-align-items:center;--n-tabs-title-text-align:center;--n-tabs-title-gap:31px;--n-tabs-gap:10px;--n-tabs-title-font-size:0.8rem;}.elementor-132 .elementor-element.elementor-element-a1be7ff{--padding-top:20px;--padding-bottom:20px;--padding-left:20px;--padding-right:20px;}.elementor-132 .elementor-element.elementor-element-c6f8bde{--gap:15px 0px;--row-gap:15px;--column-gap:0px;}.elementor-132 .elementor-element.elementor-element-2d6804f{--gap:15px 0px;--row-gap:15px;--column-gap:0px;}.elementor-132 .elementor-element.elementor-element-6b54f3d{--gap:15px 0px;--row-gap:15px;--column-gap:0px;}.elementor-132 .elementor-element.elementor-element-0d23c36{font-size:0.875rem;}.elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button .elementor-button-content-wrapper{justify-content:center;}.elementor-132 .elementor-element.elementor-element-7bed59b .elementor-button{font-size:0.8rem;}.elementor-132 .elementor-element.elementor-element-57531bf{font-size:0.875rem;}.elementor-widget-divider .elementor-divider__text{font-size:var( --e-global-typography-secondary-font-size );}}@media(min-width:768px){.elementor-132 .elementor-element.elementor-element-69c0cb3{--content-width:1190px;}.elementor-132 .elementor-element.elementor-element-e9362fa{--width:50%;}.elementor-132 .elementor-element.elementor-element-58e2284{--width:100%;}.elementor-132 .elementor-element.elementor-element-1fbdae7{--width:100%;}}@media(max-width:1024px) and (min-width:768px){.elementor-132 .elementor-element.elementor-element-e9362fa{--width:100%;}}/* Start custom CSS for form, class: .elementor-element-55135b1 *//* Style radio buttons inside the ticket-form */
+.ticket-form input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Center & scale down initially */
+  width: 8px;
+  height: 8px;
+  background-color: #007bff; /* Blue inner dot */
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]:checked::before {
+  transform: translate(-50%, -50%) scale(1); /* Show inner dot when checked */
+}
+
+/* For Safari (WebKit fallback) */
+input[type="file"].elementor-upload-field::-webkit-file-upload-button {
+  padding: 1px;
+  border: 0;
+  background: none;
+}
+
+/* Optional - Style the input to look like a box */
+input[type="file"].elementor-upload-field {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #6b7280;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Optional - Change text when file is selected */
+input[type="file"].elementor-upload-field:after {
+  color: #6b7280;
+}
+
+/* Remove default focus outline and add custom one */
+input[type="file"].elementor-upload-field:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Target the wrapper of the file input */
+.elementor-field-type-upload.elementor-field-group-field_6581563::after {
+  content: "Max file size: 10MB. Supported formats: JPG, PNG, PDF";
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #6b7280; /* Tailwind gray-500 equivalent */
+}
+
+/* Target the placeholder option */
+select option:first-child {
+  color: #999;
+  font-style: italic;
+}
+
+/* Optional: style the select when the placeholder is selected */
+select:invalid {
+  color: #999;
+  font-style: italic;
+}
+
+select option[disabled] {
+  display: none;
+}
+
+<script>
+  jQuery(window).on('elementor/frontend/init', function () {
+    elementorFrontend.hooks.addAction('frontend/element_ready/form.default', function ($scope) {
+      const selectField = $scope.find('#form-field-field_c148618');
+
+      if (selectField.length) {
+        const placeholderOption = selectField.find('option:first-child');
+        if (placeholderOption.length) {
+          placeholderOption.attr('disabled', true);
+          placeholderOption.attr('hidden', true);
+          placeholderOption.attr('value', '');
+          selectField.prop('selectedIndex', 0);
+        }
+      }
+    });
+  });
+</script>/* End custom CSS */
+/* Start custom CSS for form, class: .elementor-element-af48144 *//* Style radio buttons inside the ticket-form */
+.ticket-form input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Center & scale down initially */
+  width: 8px;
+  height: 8px;
+  background-color: #007bff; /* Blue inner dot */
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]:checked::before {
+  transform: translate(-50%, -50%) scale(1); /* Show inner dot when checked */
+}
+
+/* For Safari (WebKit fallback) */
+input[type="file"].elementor-upload-field::-webkit-file-upload-button {
+  padding: 1px;
+  border: 0;
+  background: none;
+}
+
+/* Optional - Style the input to look like a box */
+input[type="file"].elementor-upload-field {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #6b7280;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Optional - Change text when file is selected */
+input[type="file"].elementor-upload-field:after {
+  color: #6b7280;
+}
+
+/* Remove default focus outline and add custom one */
+input[type="file"].elementor-upload-field:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Target the wrapper of the file input */
+.elementor-field-type-upload.elementor-field-group-field_6581563::after {
+  content: "Max file size: 10MB. Supported formats: JPG, PNG, PDF";
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #6b7280; /* Tailwind gray-500 equivalent */
+}
+
+/* Target the placeholder option */
+select option:first-child {
+  color: #999;
+  font-style: italic;
+}
+
+/* Optional: style the select when the placeholder is selected */
+select:invalid {
+  color: #999;
+  font-style: italic;
+}
+
+select option[disabled] {
+  display: none;
+}
+
+<script>
+  jQuery(window).on('elementor/frontend/init', function () {
+    elementorFrontend.hooks.addAction('frontend/element_ready/form.default', function ($scope) {
+      const selectField = $scope.find('#form-field-field_c148618');
+
+      if (selectField.length) {
+        const placeholderOption = selectField.find('option:first-child');
+        if (placeholderOption.length) {
+          placeholderOption.attr('disabled', true);
+          placeholderOption.attr('hidden', true);
+          placeholderOption.attr('value', '');
+          selectField.prop('selectedIndex', 0);
+        }
+      }
+    });
+  });
+</script>/* End custom CSS */
+/* Start custom CSS for form, class: .elementor-element-55135b1 *//* Style radio buttons inside the ticket-form */
+.ticket-form input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Center & scale down initially */
+  width: 8px;
+  height: 8px;
+  background-color: #007bff; /* Blue inner dot */
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]:checked::before {
+  transform: translate(-50%, -50%) scale(1); /* Show inner dot when checked */
+}
+
+/* For Safari (WebKit fallback) */
+input[type="file"].elementor-upload-field::-webkit-file-upload-button {
+  padding: 1px;
+  border: 0;
+  background: none;
+}
+
+/* Optional - Style the input to look like a box */
+input[type="file"].elementor-upload-field {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #6b7280;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Optional - Change text when file is selected */
+input[type="file"].elementor-upload-field:after {
+  color: #6b7280;
+}
+
+/* Remove default focus outline and add custom one */
+input[type="file"].elementor-upload-field:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Target the wrapper of the file input */
+.elementor-field-type-upload.elementor-field-group-field_6581563::after {
+  content: "Max file size: 10MB. Supported formats: JPG, PNG, PDF";
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #6b7280; /* Tailwind gray-500 equivalent */
+}
+
+/* Target the placeholder option */
+select option:first-child {
+  color: #999;
+  font-style: italic;
+}
+
+/* Optional: style the select when the placeholder is selected */
+select:invalid {
+  color: #999;
+  font-style: italic;
+}
+
+select option[disabled] {
+  display: none;
+}
+
+<script>
+  jQuery(window).on('elementor/frontend/init', function () {
+    elementorFrontend.hooks.addAction('frontend/element_ready/form.default', function ($scope) {
+      const selectField = $scope.find('#form-field-field_c148618');
+
+      if (selectField.length) {
+        const placeholderOption = selectField.find('option:first-child');
+        if (placeholderOption.length) {
+          placeholderOption.attr('disabled', true);
+          placeholderOption.attr('hidden', true);
+          placeholderOption.attr('value', '');
+          selectField.prop('selectedIndex', 0);
+        }
+      }
+    });
+  });
+</script>/* End custom CSS */
+/* Start custom CSS for form, class: .elementor-element-af48144 *//* Style radio buttons inside the ticket-form */
+.ticket-form input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Center & scale down initially */
+  width: 8px;
+  height: 8px;
+  background-color: #007bff; /* Blue inner dot */
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]:checked::before {
+  transform: translate(-50%, -50%) scale(1); /* Show inner dot when checked */
+}
+
+/* For Safari (WebKit fallback) */
+input[type="file"].elementor-upload-field::-webkit-file-upload-button {
+  padding: 1px;
+  border: 0;
+  background: none;
+}
+
+/* Optional - Style the input to look like a box */
+input[type="file"].elementor-upload-field {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #6b7280;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Optional - Change text when file is selected */
+input[type="file"].elementor-upload-field:after {
+  color: #6b7280;
+}
+
+/* Remove default focus outline and add custom one */
+input[type="file"].elementor-upload-field:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Target the wrapper of the file input */
+.elementor-field-type-upload.elementor-field-group-field_6581563::after {
+  content: "Max file size: 10MB. Supported formats: JPG, PNG, PDF";
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #6b7280; /* Tailwind gray-500 equivalent */
+}
+
+/* Target the placeholder option */
+select option:first-child {
+  color: #999;
+  font-style: italic;
+}
+
+/* Optional: style the select when the placeholder is selected */
+select:invalid {
+  color: #999;
+  font-style: italic;
+}
+
+select option[disabled] {
+  display: none;
+}
+
+<script>
+  jQuery(window).on('elementor/frontend/init', function () {
+    elementorFrontend.hooks.addAction('frontend/element_ready/form.default', function ($scope) {
+      const selectField = $scope.find('#form-field-field_c148618');
+
+      if (selectField.length) {
+        const placeholderOption = selectField.find('option:first-child');
+        if (placeholderOption.length) {
+          placeholderOption.attr('disabled', true);
+          placeholderOption.attr('hidden', true);
+          placeholderOption.attr('value', '');
+          selectField.prop('selectedIndex', 0);
+        }
+      }
+    });
+  });
+</script>/* End custom CSS */
+/* Start custom CSS for form, class: .elementor-element-55135b1 *//* Style radio buttons inside the ticket-form */
+.ticket-form input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Center & scale down initially */
+  width: 8px;
+  height: 8px;
+  background-color: #007bff; /* Blue inner dot */
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]:checked::before {
+  transform: translate(-50%, -50%) scale(1); /* Show inner dot when checked */
+}
+
+/* For Safari (WebKit fallback) */
+input[type="file"].elementor-upload-field::-webkit-file-upload-button {
+  padding: 1px;
+  border: 0;
+  background: none;
+}
+
+/* Optional - Style the input to look like a box */
+input[type="file"].elementor-upload-field {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #6b7280;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Optional - Change text when file is selected */
+input[type="file"].elementor-upload-field:after {
+  color: #6b7280;
+}
+
+/* Remove default focus outline and add custom one */
+input[type="file"].elementor-upload-field:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Target the wrapper of the file input */
+.elementor-field-type-upload.elementor-field-group-field_6581563::after {
+  content: "Max file size: 10MB. Supported formats: JPG, PNG, PDF";
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #6b7280; /* Tailwind gray-500 equivalent */
+}
+
+/* Target the placeholder option */
+select option:first-child {
+  color: #999;
+  font-style: italic;
+}
+
+/* Optional: style the select when the placeholder is selected */
+select:invalid {
+  color: #999;
+  font-style: italic;
+}
+
+select option[disabled] {
+  display: none;
+}
+
+<script>
+  jQuery(window).on('elementor/frontend/init', function () {
+    elementorFrontend.hooks.addAction('frontend/element_ready/form.default', function ($scope) {
+      const selectField = $scope.find('#form-field-field_c148618');
+
+      if (selectField.length) {
+        const placeholderOption = selectField.find('option:first-child');
+        if (placeholderOption.length) {
+          placeholderOption.attr('disabled', true);
+          placeholderOption.attr('hidden', true);
+          placeholderOption.attr('value', '');
+          selectField.prop('selectedIndex', 0);
+        }
+      }
+    });
+  });
+</script>/* End custom CSS */
+/* Start custom CSS for form, class: .elementor-element-af48144 *//* Style radio buttons inside the ticket-form */
+.ticket-form input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Center & scale down initially */
+  width: 8px;
+  height: 8px;
+  background-color: #007bff; /* Blue inner dot */
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ticket-form input[type="radio"]:checked::before {
+  transform: translate(-50%, -50%) scale(1); /* Show inner dot when checked */
+}
+
+/* For Safari (WebKit fallback) */
+input[type="file"].elementor-upload-field::-webkit-file-upload-button {
+  padding: 1px;
+  border: 0;
+  background: none;
+}
+
+/* Optional - Style the input to look like a box */
+input[type="file"].elementor-upload-field {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #6b7280;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Optional - Change text when file is selected */
+input[type="file"].elementor-upload-field:after {
+  color: #6b7280;
+}
+
+/* Remove default focus outline and add custom one */
+input[type="file"].elementor-upload-field:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+/* Target the wrapper of the file input */
+.elementor-field-type-upload.elementor-field-group-field_6581563::after {
+  content: "Max file size: 10MB. Supported formats: JPG, PNG, PDF";
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #6b7280; /* Tailwind gray-500 equivalent */
+}
+
+/* Target the placeholder option */
+select option:first-child {
+  color: #999;
+  font-style: italic;
+}
+
+/* Optional: style the select when the placeholder is selected */
+select:invalid {
+  color: #999;
+  font-style: italic;
+}
+
+select option[disabled] {
+  display: none;
+}
+
+<script>
+  jQuery(window).on('elementor/frontend/init', function () {
+    elementorFrontend.hooks.addAction('frontend/element_ready/form.default', function ($scope) {
+      const selectField = $scope.find('#form-field-field_c148618');
+
+      if (selectField.length) {
+        const placeholderOption = selectField.find('option:first-child');
+        if (placeholderOption.length) {
+          placeholderOption.attr('disabled', true);
+          placeholderOption.attr('hidden', true);
+          placeholderOption.attr('value', '');
+          selectField.prop('selectedIndex', 0);
+        }
+      }
+    });
+  });
+</script>/* End custom CSS */
+/* Start custom CSS for nested-tabs, class: .elementor-element-e3190fd */.elementor-widget-n-tabs .e-n-tabs-heading {
+  background-color: hsl(210 40% 96.1%) !important;
+  padding: 6px !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  gap: 2px !important;
+}/* End custom CSS */
+/* Start custom CSS for button, class: .elementor-element-2dc2e64 */.view-faq:hover .elementor-button-text {
+  text-decoration: underline;
+  text-underline-offset: 4px; /* adjust the offset to your preference */
+}/* End custom CSS */
