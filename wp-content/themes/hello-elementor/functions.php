@@ -442,6 +442,18 @@ function display_taxonomy_post_count() {
 }
 add_shortcode('taxonomy_post_count', 'display_taxonomy_post_count');
 
+// Heading title
+function show_taxonomy_title_articles() {
+    if (is_tax() || is_category() || is_tag()) {
+        $term = get_queried_object();
+        if ($term && isset($term->name)) {
+            return esc_html($term->name . ' Articles');
+        }
+    }
+    return 'All Articles';
+}
+add_shortcode('taxonomy_title', 'show_taxonomy_title_articles');
+
 
 require HELLO_THEME_PATH . '/theme.php';
 
