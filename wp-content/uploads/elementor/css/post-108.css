@@ -47,7 +47,7 @@
 
 /* Subtle lift + shadow on hover */
 .elementor-180 .elementor-element-a46cfe0:hover {
-  transform: translateY(-4px) scale(1.02);
+  transform: translateY(-1px) scale(1.04);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
   z-index: 5;
 }/* End custom CSS */

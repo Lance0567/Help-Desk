@@ -454,6 +454,14 @@ function show_taxonomy_title_articles() {
 }
 add_shortcode('taxonomy_title', 'show_taxonomy_title_articles');
 
+// Calculate video length
+function show_video_duration() {
+    global $post;
+    $duration = get_post_meta($post->ID, 'video_duration', true);
+    return $duration ? esc_html($duration) : 'N/A';
+}
+add_shortcode('video_duration', 'show_video_duration');
+
 
 require HELLO_THEME_PATH . '/theme.php';
 

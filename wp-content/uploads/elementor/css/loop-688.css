@@ -16,7 +16,7 @@
   padding: 2px 10px;
   display: inline-block;
   font-family: inter;
-  font-size: 14px;
+  font-size: .75rem;
   color: #2c66e4; /* optional: match icon color */
   font-weight: 400;
 }/* End custom CSS */
