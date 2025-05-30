@@ -407,7 +407,7 @@ add_action('wp_head', function() {
 });
 
 
-// test 2
+// Taxonomy counter
 function display_taxonomy_post_count() {
     // Get the current taxonomy term slug from the query string (assuming the URL includes the taxonomy filter)
     if (isset($_GET['post_cat'])) {
@@ -462,6 +462,97 @@ function show_video_duration() {
 }
 add_shortcode('video_duration', 'show_video_duration');
 
+// Handle AJAX for Like button
+function lance_handle_post_like() {
+    // Get post ID from AJAX request
+    $post_id = isset($_POST['post_id']) ? intval($_POST['post_id']) : 0;
+
+    if ($post_id === 0 || get_post_status($post_id) === false) {
+        wp_send_json_error(['message' => 'Invalid post ID']);
+        return;
+    }
+
+    // Get current like count
+    $like_key = 'lance_post_likes';
+    $likes = get_post_meta($post_id, $like_key, true);
+    $likes = ($likes == '') ? 0 : (int)$likes;
+
+    // Increment and save
+    $likes++;
+    update_post_meta($post_id, $like_key, $likes);
+
+    wp_send_json_success(['likes' => $likes]);
+    wp_die();
+}
+add_action('wp_ajax_lance_like_post', 'lance_handle_post_like');
+add_action('wp_ajax_nopriv_lance_like_post', 'lance_handle_post_like');
+
+function lance_enqueue_like_script() {
+    wp_enqueue_script('jquery');
+    ?>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.lance-like-button').click(function() {
+                const postId = $(this).data('post-id');
+                const $countDisplay = $('#like-count-' + postId);
+
+                $.post('<?php echo admin_url('admin-ajax.php'); ?>', {
+                    action: 'lance_like_post',
+                    post_id: postId
+                }, function(response) {
+                    if (response.success) {
+                        $countDisplay.text(response.data.likes);
+                    } else {
+                        alert('Error: ' + response.data.message);
+                    }
+                });
+            });
+        });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'lance_enqueue_like_script');
+
+
+// like button
+function lance_like_button_shortcode() {
+    global $post;
+    if (!isset($post->ID)) return '';
+
+    $post_id = $post->ID;
+    $like_count = get_post_meta($post_id, 'lance_post_likes', true);
+    $like_count = $like_count ? $like_count : 0;
+
+    ob_start();
+    ?>
+    <div class="like-container">
+        <button class="lance-like-button custom-like-button" data-post-id="<?php echo esc_attr($post_id); ?>">
+            <i class="las la-thumbs-up" aria-hidden="true"></i> Yes, it helped
+        </button>
+        <span class="like-count" id="like-count-<?php echo esc_attr($post_id); ?>">
+            <?php echo esc_html($like_count); ?>
+        </span>
+    </div>
+    <?php
+    return ob_get_clean();
+}
+add_shortcode('lance_like_button', 'lance_like_button_shortcode');
+
+
+// Like display counter
+function lance_like_count_shortcode() {
+    global $post;
+    if (!isset($post->ID)) return '';
+
+    $post_id = $post->ID;
+    $like_count = get_post_meta($post_id, 'lance_post_likes', true);
+    $like_count = $like_count ? $like_count : 0 ;
+
+    $message = $like_count === 1 ? 'person found this helpful' : 'people found this helpful';
+
+    return '<span class="like-count">' . esc_html($like_count) . ' ' . $message . '</span>';
+}
+add_shortcode('lance_like_count', 'lance_like_count_shortcode');
 
 require HELLO_THEME_PATH . '/theme.php';
 
