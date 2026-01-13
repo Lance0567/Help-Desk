@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   </p>
   
-  <img src="doc/homepage.png" alt="Homepage Banner" width="100%">
+  <img src="doc/hompage.png" alt="Homepage Banner" width="100%">
 
 </div>
 
